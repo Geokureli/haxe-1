@@ -92,7 +92,7 @@ typedef MetaData = Array<{name:String, params:Array<String>}>;
 /**
 	The runtime class field information.
 
-	@see <https://haxe.org/manual/cr-rtti-structure.html#class-field-information>
+	@see <https://haxe.org/manual/cr-rtti.html#class-field-information>
 **/
 typedef ClassField = {
 	/**
@@ -276,7 +276,7 @@ typedef Classdef = TypeInfos & {
 /**
 	The runtime enum constructor information.
 
-	@see <https://haxe.org/manual/cr-rtti-structure.html#enum-constructor-information>
+	@see <https://haxe.org/manual/cr-rtti.html#enum-constructor-information>
 **/
 typedef EnumField = {
 	/**
@@ -312,7 +312,7 @@ typedef EnumField = {
 /**
 	The enum runtime type information.
 
-	@see <https://haxe.org/manual/cr-rtti-structure.html#enum-type-information>
+	@see <https://haxe.org/manual/cr-rtti.html#enum-type-information>
 **/
 typedef Enumdef = TypeInfos & {
 	/**
@@ -345,7 +345,7 @@ typedef Typedef = TypeInfos & {
 /**
 	The abstract type runtime information.
 
-	@see <https://haxe.org/manual/cr-rtti-structure.html#abstract-type-information>
+	@see <https://haxe.org/manual/cr-rtti.html#abstract-type-information>
 **/
 typedef Abstractdef = TypeInfos & {
 	var to:Array<{t:CType, field:Null<String>}>;
